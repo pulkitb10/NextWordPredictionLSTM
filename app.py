@@ -3,6 +3,7 @@ import pickle
 from tensorflow.keras.models import load_model
 import numpy as np
 import pandas as pd
+import nltk
 import tensorflow as tf
 from tensorflow.keras.layers import Dense, LSTM,Embedding
 from tensorflow.keras.models import Sequential
@@ -44,3 +45,4 @@ if st.button("Predict"):
         st.write("Predicted Text: ", predicted_text)
     else:
         st.write("Please enter a sentence to predict its next word.")
+
