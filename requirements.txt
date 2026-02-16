@@ -7,4 +7,5 @@ seaborn
 nltk
 ipykernel
 gensim
+protoc >= 3.19.0
 streamlit
