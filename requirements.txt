@@ -8,8 +8,8 @@ nltk
 ipykernel
 gensim
 protobuf==5.28.0
-protoc == 3.19.6
 streamlit
+
 
 
 
