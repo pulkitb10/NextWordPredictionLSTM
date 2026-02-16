@@ -13,6 +13,9 @@ nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder,OneHotEncoder
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.utils import to_categorical
 
 # Load the trained model
 model = load_model('next_word_predictor_model.h5')
